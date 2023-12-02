@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+h1, h2, p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 1.6rem 0;
+}
+.topbar {
+  display: inline;
+  position: absolute;
+  width: 90%;
+  background-color: black;
+  height: 40px;
+  align-items: center;
+}
+.topbar ul {
+  align-items: center;
+  position: relative;
+  display: inline;
+  top: 8px;
+  left: 350px;
+}
+.topbar li {
+  display: inline;
+  margin-left: 5px;
+  color: white;
+}
+.appt {
+  background-color: aqua;
+  height: 40px;
+  width: 100px;
+  position: absolute;
+  left: 100%;
+  border: 0;
+}
+menu_bar {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  position: absolute;
+  top: 40px;
+}
+.menu {
+  display: inline;
+  margin-left: 10px;
+}
+
+.menus {
+  position: relative;
+  left: 25%;
+}
+.banner {
+  position: relative;
+  width: 100vw;
+  height: 75vh;
+  background-image: url(Images/doctor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: auto;
+}
+.banner h2 {
+  position: absolute;
+  color: white;
+}
+#search {
+  width: 15px;
+}
+#hamburger {
+  width: 15px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(225, 224, 224);
+  gap: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.container div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.container h4{
+    font-size: 12px
+}
+
+.truck {
+  display: inline;
+  margin-left: 20px;
+}
+.time {
+  display: inline;
+  left: 50px;
+}
+.medical-team{
+  width: 100vw;
+  height: 100vh;
+  margin-top: 50px;
+  background-color: rgb(235, 235, 225);
+}
+.content{
+  display: flex;
+  padding: 2rem 4rem;
+}
+#picture{
+  width: 40%;
+  height: auto;
+  margin-top: 50px;
+}
+.text{
+  margin: 50px;
+}
+button{
+  background-color: aqua;
+  border: none;
+  border-radius: 30px;
+  width: 8rem;
+  height: 2.5rem;
+  cursor: pointer;
+}
+.excellence{
+  text-align: center;
+  padding: 0 7rem;
+}
+span{
+  color: aqua;
+  font-weight: 800;
+}
+.dept{
+  display: flex;
+  justify-content: space-between;
+}
+.eye-care{
+  text-align: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
+  border: 1px;
+  border-style: groove;
+  border-top-color: aqua;
+  border-top-width: 3.5px
+}
+.blood-cancer{
+  text-align: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
+  border: 1px;
+  border-style: groove;
+  border-top-color: aqua;
+  border-top-width: 3.5px
+  
+}
+.neuro{
+  text-align: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
+  border: 1px;
+  border-style: groove;
+  border-top-color: aqua;
+  border-top-width: 3.5px
+}
+footer{
+  background-image: url(Images/Chemical-BS-800x450.jpg);
+  background-repeat: no-repeat;
+  background-size: 98% 100%;
+  background-position: center;
+}
+.box-container{
+  display: flex;
+  justify-content: center;
+}
+.box-container p{
+  font-size: 10px;
+}
+.box1{
+  border: 5px;
+  border-style: groove;
+  text-align: center;
+  background-color: whitesmoke;
+  width: 8rem;
+  height: 7rem;
+  margin: 2rem;
+}
+.box2{
+  border: 5px;
+  border-style: groove;
+  text-align: center;
+  background-color: whitesmoke;
+  width: 8rem;
+  height: 7rem;
+  margin: 2rem;
+}
+.box3{
+  border: 5px;
+  border-style: groove;
+  text-align: center;
+  background-color: whitesmoke;
+  width: 8rem;
+  height: 7rem;
+  margin: 2rem;
+}
+.box4{
+  border: 5px;
+  border-style: groove;
+  text-align: center;
+  background-color: whitesmoke;
+  width: 8rem;
+  height: 7rem;
+  margin: 2rem;
+}
+
